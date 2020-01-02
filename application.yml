@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: springconfig-demo-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: springconfig-demo-test
